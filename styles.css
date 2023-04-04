@@ -1,0 +1,95 @@
+/* div {
+  width: 320px;
+  padding: 2px;
+  border: 5px solid white;
+  margin: 0px;
+
+
+}
+
+#headline {
+  color: green;
+  background-color: blue;
+  text-align: center;
+  margin: 0px;
+}
+
+#headdiv {
+  background-color: black;
+}
+
+.textone {
+  color: blue;
+}
+#the-question:hover + #the-answer { 
+ display: block;
+ }
+ #the-answer {
+  color: yellow;
+display: none;
+ }
+ #circle{
+  width: 320px;
+  height: 320px;
+  padding: 2px;
+  border: 5px solid black;
+  margin: 0px;
+  border-radius: 50%;
+ transition: 1s;
+ }
+ #circle:hover{
+  background-color: brown;
+ }
+
+
+ #main-circle {
+  width: 320px;
+  height: 320px;
+  padding: 2px;
+  border: 5px solid black;
+  margin: 0px;
+  border-radius: 50%;
+ 
+ }
+
+ #second-circle  {
+  width: 320px;
+  height: 320px;
+  padding: 2px;
+  border: 5px solid red;
+  margin: 0px;
+  border-radius: 50%;
+ transition-timing-function: 10s;
+ display:none;
+ }
+ #main-circle:hover+#second-circle{
+  background-color: brown;
+  display: block;
+ 
+ }
+ #second-circle:hover+#main-circle{
+  background-color: brown;
+  display: none;
+ }
+  */
+  #center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  #input{
+    display: flex;
+   justify-content: center;
+    color: gray;
+  }
+  #home-page{
+    display: flex;
+    justify-content: center;
+
+  }
+  #pictiure{
+    display: flex;
+   justify-content: center;
+
+  }
