@@ -1,0 +1,125 @@
+#head-line {
+   background-color: antiquewhite;
+   display: flex;
+   justify-content: space-around;
+   align-content: center;
+   align-items: center;
+}
+
+a {
+   color: inherit;
+   text-decoration: inherit;
+}
+
+#section1 {
+   margin-top: 3rem;
+   width: 80vw;
+   display: flex;
+   gap: 2rem;
+   justify-content: center;
+   height: max-content;
+   width: max-content;
+   padding: 1rem;
+   border-radius: 20px;
+   border-color: gray;
+   border: 1px;
+   box-shadow: -1px 2px 15px 9px rgba(0, 0, 0, 0.23);
+}
+
+#price {
+   color: red;
+   font-size: larger;
+}
+
+input {
+   border: none;
+   padding-inline: .6rem;
+   padding-block: .3rem;
+   border-radius: 15px;
+   width: 4rem;
+   cursor: pointer;
+   /* background-color: blanchedalmond; */
+
+}
+
+#sub-color {
+   cursor: pointer;
+   /* background-color: blanchedalmond; */
+   border: none;
+   padding-inline: .6rem;
+   padding-block: .3rem;
+   border-radius: 15px;
+   column-gap: normal;
+   row-gap: 5px;
+}
+
+.button:hover {
+   background-color: blanchedalmond;
+
+}
+
+#add-to-bag {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 1rem;
+   margin-top: 1rem;
+}
+
+#add-to-bag button:first-child {
+   background-color: green;
+   color: white;
+   width: 100%;
+   padding: .7rem 1.5rem;
+   padding: .5rem 2rem;
+   border-radius: 10px;
+   border: none;
+   font-size: 1rem;
+}
+
+#description {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   max-height: 100%;
+}
+
+#back-home {
+   margin-top: 3rem;
+   background-color: aquamarine;
+   border-radius: 20px;
+   text-decoration: none;
+   color: white;
+   display: flex;
+   justify-content: center;
+   margin: auto;
+   width: 20%;
+
+
+}
+
+#svges {
+   display: flex;
+   justify-content: center;
+}
+@keyframes wipe-enter {
+	0% {
+		transform: scale(0, .025);
+	}
+	50% {
+		transform: scale(1, .025);
+	}
+}
+@media (prefers-reduced-motion: no-preference) {
+  #section1 {
+    animation-name: wipe-enter;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  #section1 {
+    animation: wipe-enter 1s 1;
+  }
+}
