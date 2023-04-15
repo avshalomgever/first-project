@@ -1,5 +1,5 @@
 #head-line {
-   background-color: antiquewhite;
+   background-color: palegreen;
    display: flex;
    justify-content: space-around;
    align-content: center;
@@ -122,4 +122,8 @@ input {
   #section1 {
     animation: wipe-enter 1s 1;
   }
+}
+img{
+   width: 30vw;
+   height:30vw;
 }
