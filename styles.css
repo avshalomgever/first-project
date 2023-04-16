@@ -14,7 +14,20 @@ html {
   width: -webkit-fill-available;
   object-fit: contain;
   overflow-clip-margin: content-box;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+}
+#title{
+  position: absolute;
+  z-index: 1;
+  /* margin-left: 35vw; */
+  margin-top:20vw;
+  width: 100vw;
+  height: 30vw;
+  font-size: 5vw;
 }
 
 #head-line {
@@ -38,6 +51,8 @@ a {
   background-color: palegreen;
   border-radius: 70%;
   font-size: 2vw;
+  width: 10vw;
+  margin-left: 46vw;
 }
 
 p {
@@ -54,6 +69,8 @@ p {
   background-color: palegreen;
   border-radius: 70%;
   font-size: 2vw;
+  width: 15vw;
+  margin-left: 45vw;
 }
 
 #line-break1 {
@@ -444,8 +461,6 @@ p {
     justify-content: center;
     align-items: center;
   }
-  .images{
-   
-  }
+ 
   
 }
