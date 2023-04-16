@@ -38,13 +38,13 @@ input {
    border-radius: 15px;
    width: 4rem;
    cursor: pointer;
-   /* background-color: blanchedalmond; */
+
 
 }
 
 #sub-color {
    cursor: pointer;
-   /* background-color: blanchedalmond; */
+
    border: none;
    padding-inline: .6rem;
    padding-block: .3rem;

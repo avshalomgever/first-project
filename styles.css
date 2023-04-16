@@ -10,7 +10,7 @@ html {
 
 
 #video {
-  /* width: 100%; */
+
   width: -webkit-fill-available;
   object-fit: contain;
   overflow-clip-margin: content-box;
@@ -20,11 +20,11 @@ html {
   align-items: center;
 
 }
-#title{
+
+#title {
   position: absolute;
   z-index: 1;
-  /* margin-left: 35vw; */
-  margin-top:20vw;
+  margin-top: 20vw;
   width: 100vw;
   height: 30vw;
   font-size: 5vw;
@@ -105,7 +105,7 @@ p {
 
 #main-section {
   display: grid;
-  /* grid-template-columns: 1fr 1fr 1fr; */
+
   column-gap: 3vw;
   row-gap: 3vw;
   background-image: url(./assets/woods\ 3.jpg);
@@ -267,7 +267,7 @@ p {
   background-image: url("https://assets.codepen.io/4787486/trees.png");
   background-size: cover;
   transition: .3s ease-in-out;
-  /* border: 1px solid green; */
+
 }
 
 .dots {
@@ -327,14 +327,14 @@ p {
 }
 
 
-/* Animations and timing delays */
+
 .animate {
   animation-duration: 0.7s;
   animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
   animation-fill-mode: backwards;
 }
 
-/* Pop In */
+
 .pop {
   animation-name: pop;
 }
@@ -351,7 +351,7 @@ p {
   }
 }
 
-/* Slide In */
+
 .slide {
   animation-name: slide;
 }
@@ -368,7 +368,7 @@ p {
   }
 }
 
-/* Slide Left */
+
 .slide-left {
   animation-name: slide-left;
 }
@@ -452,15 +452,16 @@ p {
       'products'
       'products';
     justify-content: center;
-    
+
   }
-  .products{
+
+  .products {
     width: 60vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
- 
-  
+
+
 }
